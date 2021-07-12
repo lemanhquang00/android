@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:background="@drawable/background1"
+            android:id="@+id/img_update"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="150dp">
+
+        </ImageView>
+        <Button
+            android:layout_marginTop="10dp"
+            android:text="Chose Image"
+            android:layout_gravity="center"
+            android:id="@+id/btn_imgUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:hint="Ten san pham"
+            android:textSize="25sp"
+            android:id="@+id/nameUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </EditText>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:hint="Gia san pham"
+            android:textSize="25sp"
+            android:id="@+id/priceUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </EditText>
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+
+            android:text="Update"
+            android:id="@+id/btn_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+        <Button
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btn_delete"
+            android:text="Delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+        <Button
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btn_cancel"
+            android:text="Cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

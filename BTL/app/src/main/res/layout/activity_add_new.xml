@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Modules.AddNew">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/inputName"
+            android:textSize="25sp"
+            android:hint="Ten san pham"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/inputPrice"
+            android:textSize="25sp"
+            android:hint="Gia san pham"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:background="@drawable/background1"
+            android:id="@+id/img"
+            android:layout_width="150dp"
+            android:layout_height="150dp">
+
+        </ImageView>
+        <Button
+            android:id="@+id/btn_chose"
+            android:layout_marginLeft="20dp"
+            android:text="Chose picture"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_add"
+            android:text="Add"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_main"
+            android:text="Manager"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_home"
+            android:text="Home"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+    </LinearLayout>
+</LinearLayout>

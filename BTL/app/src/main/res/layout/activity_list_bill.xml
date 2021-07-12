@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Modules.ListBill">
+
+    <TextView
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="Gio Hang"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <GridView
+        android:layout_marginTop="20dp"
+        android:id="@+id/list_bill"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp">
+
+    </GridView>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="So Luong"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:id="@+id/item_count"
+            android:text="0 1 2"
+            android:layout_marginLeft="30sp"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Tong So Tien"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:id="@+id/total_cart"
+            android:text="0 1 2"
+            android:layout_marginLeft="30sp"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_con"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/mid_back"
+        android:text="Mua tiep"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Button>
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/mid_back"
+        android:text="Thanh Toan"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+</LinearLayout>

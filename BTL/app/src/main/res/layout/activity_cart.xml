@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Modules.Cart">
+    <ImageView
+        android:id="@+id/img_cart"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/background1"
+        android:layout_width="200dp"
+        android:layout_height="200dp">
+
+    </ImageView>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="30sp"
+            android:text="Ten"
+
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:textSize="30sp"
+            android:text="name"
+            android:id="@+id/name_cart"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="30sp"
+            android:text="Gia"
+
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:textSize="30sp"
+            android:text="price"
+            android:id="@+id/price_cart"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="30sp"
+            android:text="Tong so tien"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:textSize="30sp"
+            android:text="total"
+            android:id="@+id/total"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_cart"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/mid_back"
+        android:layout_width="wrap_content"
+        android:text="Them vao gio hang"
+        android:textSize="20sp"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:id="@+id/btn_view_cart"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/mid_back"
+        android:layout_width="wrap_content"
+        android:text="Xem gio hang"
+        android:textSize="20sp"
+        android:layout_height="wrap_content">
+    </Button>
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img_bill"
+            android:background="@drawable/background1"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+        </ImageView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:text="name"
+                android:id="@+id/name_bill"
+                android:textSize="25sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:text="price"
+                android:id="@+id/price_bill"
+                android:textSize="25sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="Thanh tien"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:text="total"
+            android:id="@+id/total_bill"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>
